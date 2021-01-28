@@ -1,0 +1,19 @@
+{
+    "privateKey":{
+        "type":"pem",
+        "value":"../fisco/concole/accounts/0x5c6dce41f2f64c6e1ed70022bcbd78451736867c.pem"
+    },
+    "nodes":[
+        {
+            "ip":"127.0.0.1",
+            "port":"30300"
+        }
+    ],
+    "authentication":{
+        "key":"../fisco/nodes/127.0.0.1/sdk/sdk.key",
+        "cert":"../fisco/nodes/127.0.0.1/sdk/sdk.crt",
+        "ca":"../fisco/nodes/127.0.0.1/sdk/ca.crt"
+    },
+    "groupID":1,
+    "timeout":10000
+}
